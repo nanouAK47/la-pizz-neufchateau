@@ -21,7 +21,11 @@ export default function Header() {
           dans un cadre convivial et chaleureux, parfait pour passer du bon
           temps en compagnie de vos amis et votre famille.
         </p>
-        <a href="#menu" className="text-white">
+        <a
+          href="#menu"
+          className="text-white"
+          aria-label="Voir un extrait du menu"
+        >
           <CornerRightDown width={45} height={45} className="text-golden" />
         </a>
       </div>

@@ -13,11 +13,10 @@ export const metadata: Metadata = {
   description:
     "Découvrez La Pizz à Neufchâteau, une pizzeria artisanale et un bar avec une bonne ambiance ! Rencontrez-vous dans un cadre convivial et chaleureux, parfait pour passer du bon temps en compagnie de vos amis et de votre famille.",
   openGraph: {
-    type: "website",
-    url: "https://la-pizz-neufchateau.fr",
     title: "La Pizz à Neufchâteau, pizzeria et bar",
     description:
       "Découvrez La Pizz à Neufchâteau, une pizzeria artisanale et un bar avec une bonne ambiance ! Rencontrez-vous dans un cadre convivial et chaleureux, parfait pour passer du bon temps en compagnie de vos amis et votre famille.",
+    url: "https://la-pizz-neufchateau.fr",
     siteName: "La Pizz à Neufchâteau",
     phoneNumbers: "03 29 06 55 62",
     images: [
@@ -27,7 +26,11 @@ export const metadata: Metadata = {
         height: 1080,
       },
     ],
+    locale: "fr_FR",
+    type: "website",
   },
+  keywords:
+    "la pizz, la pizz neufchateau, restaurant neufchateau, pizzeria neufchateau, pizzeria et bar neufchateau, livraison neufchateau, pizzas, bar, boissons, soirée, ambiance, la pizz à neufchateau, neufchateau",
 };
 
 export default function RootLayout({
