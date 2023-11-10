@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /
+Allow: /menu
+Allow: /a-propos
+Allow: /galerie
+Allow: /contact
+Disallow: /not-found
+
+Sitemap: https://la-pizz-neufchateau.fr/sitemap.xml
