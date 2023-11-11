@@ -55,7 +55,7 @@ export default function Info() {
           </div>
         </div>
 
-        <Button href="/a-propos" title="Livraison" />
+        <Button href="/livraison" title="Livraison" />
       </div>
 
       <Image

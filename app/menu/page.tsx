@@ -43,7 +43,7 @@ export default function Menu() {
           />
           03 29 06 55 62
         </a>
-        <Button title="Livraison disponible" href="/a-propos" />
+        <Button title="Livraison disponible" href="/livraison" />
       </section>
 
       {/* Pizzas  */}
