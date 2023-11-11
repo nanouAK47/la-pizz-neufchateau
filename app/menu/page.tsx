@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   title: "Menu",
   description:
     "Découvrez notre menu alléchant de pizzas artisanales. Accompagnez votre pizza d'un verre rafraîchissant au bar, où vous trouverez une sélection de boissons variées.",
+  keywords:
+    "menu la pizz, la pizz neufchateau, restaurant neufchateau, pizzeria neufchateau, pizzeria et bar neufchateau, livraison neufchateau, pizzas, bar, boissons, soirée, ambiance, la pizz à neufchateau, neufchateau",
 };
 
 export default function Menu() {

@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   title: "Galerie",
   description:
     "Découvrez La Pizz à travers notre galerie de photos et préparez-vous à succomber à la tentation.",
+  keywords:
+    "photo la pizz, galerie la pizz neufchateau, restaurant neufchateau, pizzeria neufchateau, pizzeria et bar neufchateau, livraison neufchateau, pizzas, bar, boissons, soirée, ambiance, la pizz à neufchateau, neufchateau",
 };
 
 export default function Gallery() {

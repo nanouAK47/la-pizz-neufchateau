@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { opensans } from "@/components/fonts";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: {

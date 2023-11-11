@@ -71,7 +71,7 @@ export default function Navbar() {
 
             <a
               href="tel:0329065562"
-              className="flex-center text-xl text-golden absolute bottom-10"
+              className="flex-center text-xl text-golden absolute top-12"
             >
               <Phone
                 width={35}

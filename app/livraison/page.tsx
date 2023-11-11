@@ -9,9 +9,11 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "A propos",
+  title: "Livraison",
   description:
-    "Découvrez nos horaires d'ouverture et savourer une pizza fraîchement préparée sur place ou profiter du service de livraison.",
+    "Profitez de notre service de livraison le soir de 18h00 à 23h00 pour savourer chez vous une pizza fraîchement préparée.",
+  keywords:
+    "livraison la pizz, la pizz neufchateau, restaurant neufchateau, pizzeria neufchateau, pizzeria et bar neufchateau, livraison neufchateau, pizzas, bar, boissons, soirée, ambiance, la pizz à neufchateau, neufchateau",
 };
 
 export default function About() {

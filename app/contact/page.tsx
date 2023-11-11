@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Contactez-nous par téléphone pour passer votre commande sur place, à emporter ou en livraison.",
+  keywords:
+    "contact la pizz, la pizz neufchateau, restaurant neufchateau, pizzeria neufchateau, pizzeria et bar neufchateau, livraison neufchateau, pizzas, bar, boissons, soirée, ambiance, la pizz à neufchateau, neufchateau",
 };
 
 export default function Contact() {
