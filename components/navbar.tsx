@@ -17,8 +17,9 @@ export default function Navbar() {
       <Image
         src="/logo.webp"
         alt="logo La Pizz"
-        width={128}
-        height={128}
+        width={180}
+        height={180}
+        className="w-32 h-32 sm:w-[180px] sm:h-[180px]"
         priority
       />
 
@@ -39,16 +40,18 @@ export default function Navbar() {
         ))}
       </ul>
 
-      <a href="tel:0329065562" className="flex-center text-base text-golden">
-        <Phone
-          width={35}
-          height={35}
-          fill="#dcca87"
-          stroke="none"
-          className="mr-2"
-        />
-        03 29 06 55 62
-      </a>
+      <div className="hidden sm:flex">
+        <a href="tel:0329065562" className="flex-center text-lg text-golden">
+          <Phone
+            width={35}
+            height={35}
+            fill="#dcca87"
+            stroke="none"
+            className="mr-2"
+          />
+          03 29 06 55 62
+        </a>
+      </div>
 
       <div className="flex lg:hidden">
         <Menu
@@ -66,9 +69,23 @@ export default function Navbar() {
               className="cursor-pointer text-golden absolute top-12 right-[17px]"
             />
 
-            <ul className="h-full flex-center flex-col gap-y-6 text-white text-3xl">
+            <a
+              href="tel:0329065562"
+              className="flex-center text-xl text-golden absolute bottom-10"
+            >
+              <Phone
+                width={35}
+                height={35}
+                fill="#dcca87"
+                stroke="none"
+                className="mr-2"
+              />
+              03 29 06 55 62
+            </a>
+
+            <ul className="text-center text-white text-3xl">
               {link.map((link, index) => (
-                <li key={index}>
+                <li key={index} className="mb-4">
                   <Link
                     onClick={() => setToggleMenu(false)}
                     href={link.href}

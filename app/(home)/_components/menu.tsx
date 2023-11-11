@@ -57,7 +57,7 @@ export default function Menu() {
           alt="couteau"
           width={48}
           height={402}
-          className="w-[48px] h-[402px] mx-auto lg:mx-16"
+          className="hidden w-[48px] h-[402px] mx-auto lg:mx-16 sm:flex"
         />
 
         <div className="flex items-center flex-1 w-full flex-col mt-8 lg:items-end lg:mt-0">

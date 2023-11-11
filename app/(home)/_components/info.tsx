@@ -7,22 +7,14 @@ export default function Info() {
   return (
     <section className="flex flex-col justify-between items-center app-bg paddings lg:flex-row">
       <div className="flex flex-col justify-center items-center mb-16 lg:items-start lg:mb-0">
-        <SubHeading title="Horaires & Services" className="mx-auto lg:m-0" />
+        <SubHeading title="A propos" className="mx-auto lg:m-0" />
         <h1
           className={`${cormorant.className} text-golden text-6xl capitalize`}
         >
-          A propos
+          Livraison
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 my-12 gap-x-4">
-          <div className="py-3 text-center lg:text-start">
-            <p
-              className={`${cormorant.className} text-golden font-bold capitalize text-2xl`}
-            >
-              Licence
-            </p>
-            <p className="text-[#aaaaaa] text-sm">Bar sous licence IV</p>
-          </div>
           <div className="py-3 text-center lg:text-start">
             <p
               className={`${cormorant.className} text-golden font-bold capitalize text-2xl`}
@@ -44,6 +36,14 @@ export default function Info() {
             <p className="text-[#aaaaaa] text-sm">
               7j7 : 11h00 - 14h00 & 18h30 - 23h00
             </p>
+          </div>
+          <div className="py-3 text-center lg:text-start">
+            <p
+              className={`${cormorant.className} text-golden font-bold capitalize text-2xl`}
+            >
+              Licence
+            </p>
+            <p className="text-[#aaaaaa] text-sm">Bar sous licence IV</p>
           </div>
           <div className="py-3 text-center lg:text-start">
             <p

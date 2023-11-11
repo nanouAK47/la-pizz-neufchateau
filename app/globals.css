@@ -16,8 +16,8 @@
     @apply bg-[url("/bg.webp")] bg-cover bg-fixed;
   }
 
-  .app-wrapper {
-    @apply flex justify-between items-center min-h-screen;
+  .button {
+    @apply flex-center bg-golden text-black font-bold text-sm cursor-pointer border-none py-2 px-6 uppercase;
   }
 
   .paddings {
@@ -25,7 +25,7 @@
   }
 
   .menu {
-    @apply flex items-center flex-col h-full max-w-xl mx-auto bg-white border-4 border-golden p-8 mb-4 text-center;
+    @apply flex items-center flex-col h-full max-w-xl mx-auto bg-white border-4 border-golden p-8 text-center mb-4;
   }
 }
 

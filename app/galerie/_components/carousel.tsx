@@ -10,10 +10,7 @@ export default function Carousel() {
 
   return (
     <div>
-      <button
-        onClick={() => setToggler(!toggler)}
-        className="flex-center bg-golden text-black font-bold text-sm cursor-pointer border-none py-2 px-6"
-      >
+      <button onClick={() => setToggler(!toggler)} className="button">
         Voir la galerie
         <ArrowUpRightIcon width={24} height={24} className="text-black ml-1" />
       </button>

@@ -20,10 +20,7 @@ export default function Footer() {
           <p className="text-base text-white">
             23 rue de France, 88300 Neufchâteau
           </p>
-          <a
-            href="tel:0329065562"
-            className="flex-center text-base text-golden"
-          >
+          <a href="tel:0329065562" className="flex-center text-lg text-golden">
             <Phone
               width={35}
               height={35}
@@ -33,31 +30,29 @@ export default function Footer() {
             />
             03 29 06 55 62
           </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100057123563972&sk=photos"
+            aria-label="facebook la pizz"
+            target="_blank"
+          >
+            <Facebook
+              width={35}
+              height={35}
+              fill="#dcca87"
+              stroke="none"
+              className="text-golden mx-auto mt-4"
+            />
+          </a>
         </div>
 
-        <div>
-          <div className="flex-center gap-x-4">
-            <Image
-              src="/logo.webp"
-              alt="logo La Pizz"
-              width={128}
-              height={128}
-              priority
-            />
-            <a
-              href="https://nb-web.fr"
-              aria-label="Site internet nb-web"
-              target="_blank"
-            >
-              <Image
-                src="/nb-web.png"
-                width={160}
-                height={160}
-                alt="logo nb web"
-                className="mt-4"
-              />
-            </a>
-          </div>
+        <div className="mx-auto">
+          <Image
+            src="/logo.webp"
+            alt="logo La Pizz"
+            width={180}
+            height={180}
+            priority
+          />
         </div>
 
         <div>
@@ -86,12 +81,17 @@ export default function Footer() {
       </p>
 
       <a
-        href="https://www.facebook.com/profile.php?id=100057123563972&sk=photos"
-        aria-label="facebook la pizz"
+        href="https://nb-web.fr"
+        aria-label="Site internet nb-web"
         target="_blank"
-        className="text-golden mx-auto mt-8"
       >
-        <Facebook width={35} height={35} fill="#dcca87" stroke="none" />
+        <Image
+          src="/nb-web.png"
+          width={160}
+          height={160}
+          alt="logo nb web"
+          className="mt-4"
+        />
       </a>
     </footer>
   );

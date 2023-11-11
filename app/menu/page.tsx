@@ -1,16 +1,10 @@
 import Image from "next/image";
 import { Metadata } from "next";
-import {
-  ArrowDown,
-  GlassWater,
-  IceCream2,
-  Phone,
-  Pizza,
-  Wine,
-} from "lucide-react";
+import { GlassWater, IceCream2, Phone, Pizza, Wine } from "lucide-react";
 import { cormorant } from "@/components/fonts";
 import Modal from "./_components/modal";
 import Button from "@/components/button";
+import SubHeading from "@/components/subheading";
 
 export const metadata: Metadata = {
   title: "Menu",
@@ -21,19 +15,19 @@ export const metadata: Metadata = {
 export default function Menu() {
   return (
     <main className="app-bg paddings">
-      {/* Présentation  */}
-      <section className="menu">
-        <h1 className={`${cormorant.className} text-4xl text-black font-bold`}>
-          Notre Menu
+      <section className="flex-center flex-col text-center mb-8">
+        <SubHeading title="Notre carte" className="mx-auto" />
+        <h1
+          className={`${cormorant.className} text-golden font-bold capitalize text-7xl`}
+        >
+          Menu
         </h1>
-        <Image
-          src="/spoon.svg"
-          alt="cuillère"
-          width={40}
-          height={10}
-          className="mx-auto mb-4"
-        />
-        <Button title="Livraison disponible !" href="/a-propos" />
+        <p className="text-white my-4">
+          Découvrez notre menu de pizzas artisanales.
+          <br />
+          Accompagnez votre pizza d&apos;un verre rafraîchissant au bar, où vous
+          trouverez une sélection de boissons.
+        </p>
         <a
           href="tel:0329065562"
           className="flex items-center text-2xl font-bold text-golden my-4"
@@ -47,19 +41,11 @@ export default function Menu() {
           />
           03 29 06 55 62
         </a>
-        <p className="text-xl mt-8 font-semibold">
-          23 rue de France,
-          <br />
-          Neufchâteau, 88300
-          <br />
-        </p>
-        <a href="#pizzas" className="text-golden mt-4">
-          <ArrowDown width={30} height={30} />
-        </a>
+        <Button title="Livraison disponible" href="/a-propos" />
       </section>
 
       {/* Pizzas  */}
-      <section id="pizzas" className="menu">
+      <section className="menu">
         <h1
           className={`${cormorant.className} flex items-center text-3xl text-black font-bold`}
         >
@@ -192,7 +178,7 @@ export default function Menu() {
           Champagnes
         </h2>
         <p className="text-sm text-gray">
-          Champagnes (la coupe : 7.60€ | la bouteille : 60€)
+          Champagnes (la coupe : 7.60€, la bouteille : 60€)
         </p>
       </section>
 
@@ -214,7 +200,8 @@ export default function Menu() {
           Glaces
         </h2>
         <p className="text-sm text-gray">
-          Une boule (1.60€, coulis et friandises offert)
+          Une boule (1.60€), coulis (caramel, chocolat, fruit rouge) et
+          friandises offert
           <br /> Parfums : Vanille, Chocolat, Fraise, Cerise, Rhum raisin,
           Pistache, Menthe Chocolat, Café, Citron
           <br /> Chantilly (1.60€)

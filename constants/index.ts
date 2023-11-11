@@ -8,8 +8,8 @@ export const link = [
     href: "/menu",
   },
   {
-    title: "A propos",
-    href: "/a-propos",
+    title: "Livraison",
+    href: "/livraison",
   },
   {
     title: "Galerie",

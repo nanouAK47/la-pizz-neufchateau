@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { ArrowUpRightIcon } from "lucide-react";
+import { ExternalLinkIcon } from "lucide-react";
 
 export default function Button({
   title,
@@ -11,12 +11,9 @@ export default function Button({
 }) {
   return (
     <button type="button">
-      <Link
-        href={href}
-        className="flex-center bg-golden text-black font-bold text-sm cursor-pointer border-none py-2 px-6"
-      >
+      <Link href={href} className="button">
         {title}
-        <ArrowUpRightIcon width={24} height={24} className="text-black ml-1" />
+        <ExternalLinkIcon width={24} height={24} className="text-black ml-1" />
       </Link>
     </button>
   );
