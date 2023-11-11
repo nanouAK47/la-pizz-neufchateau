@@ -36,6 +36,7 @@ export default function Header() {
         width={1080}
         height={810}
         className="hidden w-1/2 xl:flex"
+        priority
       />
     </header>
   );

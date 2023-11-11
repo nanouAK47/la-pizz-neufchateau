@@ -64,6 +64,7 @@ export default function Info() {
         width={1080}
         height={810}
         className="lg:w-1/2"
+        priority
       />
     </section>
   );

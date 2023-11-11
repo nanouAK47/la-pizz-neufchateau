@@ -20,19 +20,17 @@ export default function Video() {
 
   return (
     <section className="flex-center app-bg relative sm:hidden">
-      <video ref={vidRef} src="/video.mp4" loop controls={false} muted />
+      <video ref={vidRef} src="/video.mp4" muted autoPlay />
 
-      <div className="flex-center w-full h-full absolute inset-0 bg-[#000000b3]">
-        <div
-          className="flex-center w-12 h-12 rounded-full border border-golden cursor-pointer"
-          onClick={handlePlayPauseClick}
-        >
-          {playVideo ? (
-            <Pause width={30} height={30} className="text-white opacity-50" />
-          ) : (
-            <Play width={30} height={30} className="text-white opacity-50" />
-          )}
-        </div>
+      <div
+        onClick={handlePlayPauseClick}
+        className="flex-center w-full h-full absolute inset-0 bg-[#000000b3]"
+      >
+        {playVideo ? (
+          <Pause width={30} height={30} className="text-white opacity-50" />
+        ) : (
+          <Play width={30} height={30} className="text-white opacity-50" />
+        )}
       </div>
     </section>
   );

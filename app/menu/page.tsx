@@ -94,6 +94,7 @@ export default function Menu() {
           <br /> Cognac (3.70€)
           <br /> Porto blanc/rouge, Suze, Martini (3.60€)
           <br /> Poire, Manzana, Mirabelle
+          <br /> Punch (6€), Shot différent (3.20€)
         </p>
         <h2 className={`${cormorant.className} text-black font-bold text-2xl`}>
           Bières
@@ -105,7 +106,7 @@ export default function Menu() {
           <br /> Galopin (1.60€), Super Bock (2.70€)
           <br /> 1664 (2.80€), Heineken (3.40€)
           <br /> Chimay (5.30€), Desperados (3.80€)
-          <br /> Leffe, La Goudale (3.20€)
+          <br /> Sans alcool : Leffe, La Goudale (3.20€)
           <br /> Picon (3.70€), Cuvée des trolls (4.30€)
           <br /> Bière Bourdon (4.50€), Noirade (5.20€)
           <br /> Suppléments : sirop (0.30€), picon (1€)
@@ -117,8 +118,11 @@ export default function Menu() {
           Café express (1.50€, double : 2.80€)
           <br /> Café crème (2€, grand crème : 3€)
           <br /> Café déca expresso (1.90€), Café déca allongé (2€)
-          <br /> Cappuccino (2.90€)
-          <br /> Chocolat (2.70€), Chocolat viennois (2.90€)
+          <br /> Grand déca (3.40€)
+          <br /> Déca noisette (2€), Déca crème (2.30€)
+          <br /> Cappuccino (2.90€), Déca cappuccino (3.50€)
+          <br /> Petit chocolat (2€), Chocolat (2.70€), Chocolat viennois
+          (2.90€)
           <br /> Lait (2.50€)
           <br /> Thé, Infusion (2.50€)
           <br /> Supplément lait (0.40€)
@@ -130,7 +134,6 @@ export default function Menu() {
           Verre d&apos;eau, Sirop à l&apos;eau (1.90€)
           <br /> Limonade (verre : 2.30€ + sirop : 2.50€)
           <br /> Diabolo (2.50€)
-          {/* <br /> Rado (2.50€) */}
           <br /> Coca-cola, Orangina, Schweppes, Fuze Tea, Perrier (3.40€)
           <br /> Jus de fruits : orange, pomme, abricot,
           <br /> ananas, tomate (3.40€)
@@ -143,7 +146,8 @@ export default function Menu() {
           À emporter
         </h2>
         <p className="text-sm text-gray">
-          Fanta, Coca-cola, Orangina, Fuze-Tea (3.40€ ou 1.25L)
+          Fanta, Coca-cola, Orangina, Fuze-Tea (cannette : 2.50€, bouteille
+          1.25L : 4.50€)
           <br /> Lambrousco (11€)
         </p>
       </section>

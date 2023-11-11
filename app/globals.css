@@ -21,7 +21,7 @@
   }
 
   .paddings {
-    @apply py-16 px-4 lg:px-24;
+    @apply py-8 px-4 lg:px-24 lg:py-16;
   }
 
   .menu {
