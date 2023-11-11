@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone } from "lucide-react";
 import { link } from "@/constants";
+import { cn } from "@/lib/utils";
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -26,11 +27,11 @@ export default function Navbar() {
           <li key={index}>
             <Link
               href={link.href}
-              className={`${
+              className={cn(
                 pathname === link.href
                   ? "text-golden border-b border-golden"
                   : "text-white hover:text-golden hover:border-b hover:border-golden"
-              }`}
+              )}
             >
               {link.title}
             </Link>
@@ -71,11 +72,11 @@ export default function Navbar() {
                   <Link
                     onClick={() => setToggleMenu(false)}
                     href={link.href}
-                    className={`${
+                    className={cn(
                       pathname === link.href
                         ? "text-golden border-b border-golden"
                         : "text-white hover:text-golden hover:border-b hover:border-golden"
-                    }`}
+                    )}
                   >
                     {link.title}
                   </Link>

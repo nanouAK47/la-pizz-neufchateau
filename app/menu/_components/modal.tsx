@@ -9,7 +9,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Suspense } from "react";
 
 export default function Modal() {
   return (
@@ -27,10 +26,10 @@ export default function Modal() {
                 width={240}
                 height={320}
                 alt={`pizza ${pizza.name}`}
-                className="w-auto h-auto mx-auto mb-4 rounded-full"
-                placeholder="blur"
-                blurDataURL="Chargement..."
+                className="mx-auto mb-4 rounded-full"
+                priority
               />
+
               <DialogTitle className="text-2xl">{pizza.name}</DialogTitle>
               <DialogDescription className="text-base">
                 {pizza.ingredient}
