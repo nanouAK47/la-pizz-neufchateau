@@ -20,7 +20,7 @@ export default function Video() {
 
   return (
     <section className="flex-center app-bg relative sm:hidden">
-      <video ref={vidRef} src="/video.mp4" muted autoPlay />
+      <video ref={vidRef} src="/video.mp4" autoPlay controls={false} />
 
       <div
         onClick={handlePlayPauseClick}

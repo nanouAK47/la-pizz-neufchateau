@@ -93,7 +93,7 @@ export default function Menu() {
           <br /> Get 27, Malibu, Baileys (4.40€)
           <br /> Cognac (3.70€)
           <br /> Porto blanc/rouge, Suze, Martini (3.60€)
-          <br /> Poire, Manzana, Mirabelle
+          <br /> Poire, Mirabelle (3.30€)
           <br /> Punch (6€), Shot différent (3.20€)
         </p>
         <h2 className={`${cormorant.className} text-black font-bold text-2xl`}>
@@ -115,7 +115,7 @@ export default function Menu() {
           Boissons chaudes
         </h2>
         <p className="text-sm text-gray">
-          Café express (1.50€, double : 2.80€)
+          Café express (1.60€, double : 2.80€)
           <br /> Café crème (2€, grand crème : 3€)
           <br /> Café déca expresso (1.90€), Café déca allongé (2€)
           <br /> Grand déca (3.40€)
@@ -131,7 +131,7 @@ export default function Menu() {
           Softs
         </h2>
         <p className="text-sm text-gray">
-          Verre d&apos;eau, Sirop à l&apos;eau (1.90€)
+          Verre d&apos;eau (0.90€), Sirop à l&apos;eau (1.90€)
           <br /> Limonade (verre : 2.30€ + sirop : 2.50€)
           <br /> Diabolo (2.50€)
           <br /> Coca-cola, Orangina, Schweppes, Fuze Tea, Perrier (3.40€)
